@@ -22,7 +22,7 @@ public class Solution {
             sb.append(num[i]);
         }
         
-        int flag = 0;
+        int flag = 0; // 0 0,0,0,0,0 should return "0"
         for(int i = 0; i<sb.length(); i++){
             if(sb.charAt(i) != '0'){
                 flag = 1;
