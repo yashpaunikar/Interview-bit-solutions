@@ -1,7 +1,6 @@
 // solution to largest number
 // o(nlogn) + o(n) + o(n)
 public class Solution {
-    // DO NOT MODIFY THE LIST. IT IS READ ONLY
     public String largestNumber(final List<Integer> A) {
         String [] num = new String[A.size()];
         for(int i = 0; i<A.size(); i++){
