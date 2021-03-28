@@ -3,7 +3,7 @@ Triplets with Sum between given range
 
 Solution 1: brute- generate all possible triplets and check their sum o(n^3).
 Solution 2: o(nlogn) + o(n^2) using 2 pointer gives TLE
-Solution 3:  passes AC.
+Solution 3: sliding window o(n) passes AC.
 */
 
 //optimised
