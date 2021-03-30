@@ -18,9 +18,10 @@ public class Solution {
             if(A.get(i) == A.size()-1-i)
                 return 1;
         }
-        // if all elements are zero then always true
-        // if all elements are negative and one zero
-        // return true
+        // for a case like this, -1, -2, -3, -4, 0
+        // here last is 0. The condition that 
+        // there are 0 elements greater 0 holds
+        // so we have to handle corner case below
         if(A.get(A.size()-1) == 0)
             return 1;
         return -1;
