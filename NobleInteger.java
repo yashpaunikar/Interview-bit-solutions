@@ -18,7 +18,9 @@ public class Solution {
             if(A.get(i) == A.size()-1-i)
                 return 1;
         }
-        //
+        // if all elements are zero then always true
+        // if all elements are negative and one zero
+        // return true
         if(A.get(A.size()-1) == 0)
             return 1;
         return -1;
