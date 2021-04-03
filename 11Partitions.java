@@ -21,6 +21,10 @@ public class Solution {
         int countSumBy3 = 0;
         int count2SumBy3 = 0;
         int sum1 = 0;
+        // We are only checking counts of
+        // sum/3 and 2sum/3 so we need atleast 
+        // 1 element to complete the partition
+        // thats why we go till 2nd last element
         for(int i = 0; i < B.length-1; i++){
             sum1 += B[i];
           //everytime we encounter 2*sum/3 we add 
